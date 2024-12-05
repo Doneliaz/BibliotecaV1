@@ -1,20 +1,19 @@
-public class Usuario extends Biblioteca {
+import java.util.ArrayList;
+
+public class Usuario  {
+    //variables de la instancia
+
     private String nombre;
     private int IdUsuario;
-    public Nodo librosPrestados;
+
+    //Variables de la clase
+    static int librosPrestados;
 
     public Usuario(String nombre, int usuario){
         this.IdUsuario = usuario;
         this.nombre = nombre;
-        Biblioteca.usuariosRegistrados;
-        
-    }
+    }   
 
-    
-
-    public void obtenerListaLibros(){
-        librosPrestados.getLibros();
-    }
     
     
 }
